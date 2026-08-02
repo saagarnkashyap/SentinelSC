@@ -94,6 +94,7 @@ SentinelSC/
 
 > Screenshots and demo GIFs will be available as the project evolves.
 
+<!-- 
 ### Dashboard
 
 ```
@@ -118,7 +119,7 @@ assets/command-center/simulation_v1.png
 assets/command-center/sentinel_v1.gif
 ```
 
----
+--- -->
 
 
 

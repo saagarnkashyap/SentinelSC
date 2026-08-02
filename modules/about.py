@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 def render_about():
-    st.title("ℹ About SentinelSC")
+    st.title("About SentinelSC")
     st.caption("Enterprise Supply Chain Intelligence Platform")
 
     st.divider()
@@ -13,7 +13,7 @@ def render_about():
     # ---------------------------------------------------------
     st.markdown(
         """
-### 🚀 SentinelSC
+### SentinelSC
 
 **SentinelSC** is a modern, executive-grade supply chain intelligence platform designed to help teams monitor inventory health, optimize replenishment, simulate disruptions, and take faster decisions with AI-assisted recommendations.
 """
@@ -194,11 +194,13 @@ Decision intelligence layer for:
     # ---------------------------------------------------------
     # Footer
     # ---------------------------------------------------------
-    f1, f2, f3 = st.columns(3)
+    f0, f1, f2 = st.columns(3)
 
+    with f0:
+        st.caption("Built by Kashyapa.suta")
     with f1:
         st.caption("SentinelSC • Enterprise Supply Chain Intelligence")
+    # with f2:
+    #     st.caption("Built with Streamlit + Plotly")
     with f2:
-        st.caption("Built with Streamlit + Plotly")
-    with f3:
         st.caption(f"Last Updated: {datetime.now().strftime('%d %b %Y • %H:%M:%S')}")

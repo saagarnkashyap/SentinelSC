@@ -40,7 +40,7 @@ def render_command_console():
             default_index=0,
         )
 
-        st.divider()
+
 
         # st.markdown("### SYSTEM STATUS")
         #
@@ -52,7 +52,7 @@ def render_command_console():
         #
         # st.error("AI Copilot")
 
-        st.divider()
+
 
         st.caption("Version 1.0.0")
 

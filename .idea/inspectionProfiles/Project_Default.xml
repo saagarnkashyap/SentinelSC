@@ -1,0 +1,22 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="faster-whisper" />
+          <option value="psutil" />
+          <option value="pytubefix" />
+          <option value="pandas" />
+          <option value="fastapi" />
+          <option value="spacy" />
+          <option value="numba" />
+          <option value="openai" />
+          <option value="pydub" />
+          <option value="ruff" />
+          <option value="tqdm" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,21 @@
+SKU,Description,Category,Supplier,Warehouse,Annual Demand,Daily Demand,Lead Time,Ordering Cost,Holding Cost,Unit Cost,Current Inventory,Service Level
+MCU-001,Automotive MCU,MCU,Supplier B,Germany DC,24952,68.36,8,212,16.9,165,1114,0.95
+MCU-002,Industrial MCU,MCU,Supplier B,Singapore DC,7358,20.16,7,502,13.06,55,583,0.95
+SOC-001,Mobile SoC,SoC,Supplier D,Singapore DC,20559,56.33,5,487,10.39,372,2432,0.95
+SOC-002,AI Edge SoC,SoC,Supplier C,Taiwan Hub,18719,51.28,13,203,17.11,121,1931,0.95
+FPGA-001,High-Speed FPGA,FPGA,Supplier A,Taiwan Hub,9094,24.92,11,590,12.04,87,1756,0.95
+FPGA-002,Embedded FPGA,FPGA,Supplier D,Singapore DC,15270,41.84,13,222,16.76,314,711,0.95
+ASIC-001,AI Accelerator,ASIC,Supplier E,Singapore DC,22089,60.52,14,521,15.42,481,1681,0.95
+ASIC-002,Networking ASIC,ASIC,Supplier B,Singapore DC,6279,17.2,6,538,10.73,188,526,0.95
+MEM-001,DDR5 Memory,Memory,Supplier C,Taiwan Hub,16455,45.08,13,432,15.63,226,866,0.95
+MEM-002,LPDDR5 Memory,Memory,Supplier E,Germany DC,10865,29.77,13,559,19.24,371,492,0.95
+RF-001,RF Front-End,RF,Supplier B,Germany DC,9607,26.32,12,283,13.55,178,2481,0.95
+RF-002,5G RF Module,RF,Supplier D,Taiwan Hub,14626,40.07,6,317,17.86,452,1492,0.95
+PMIC-001,Power IC,Analog,Supplier D,Taiwan Hub,6168,16.9,11,490,18.52,201,1070,0.95
+PMIC-002,Power Controller,Analog,Supplier E,Taiwan Hub,19035,52.15,9,335,9.68,421,2499,0.95
+SEN-001,Image Sensor,Sensor,Supplier E,Taiwan Hub,23155,63.44,18,498,12.79,152,766,0.95
+SEN-002,Temperature Sensor,Sensor,Supplier E,Singapore DC,6978,19.12,6,256,9.83,121,1929,0.95
+DSP-001,DSP Processor,DSP,Supplier E,Singapore DC,16608,45.5,17,505,19.95,310,1229,0.95
+DSP-002,Audio DSP,DSP,Supplier D,Singapore DC,7753,21.24,13,593,15.69,97,1402,0.95
+GPU-001,Embedded GPU,GPU,Supplier B,Germany DC,18867,51.69,5,569,18.51,174,2250,0.95
+NPU-001,Neural Processing Unit,AI,Supplier C,Singapore DC,7486,20.51,14,527,14.09,141,826,0.95

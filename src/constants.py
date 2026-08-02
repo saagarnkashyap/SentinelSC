@@ -1,0 +1,25 @@
+"""
+Application Constants
+"""
+
+# Inventory
+
+Z_SCORE = 1.65
+
+DEFAULT_DEMAND_STD = 0.20
+
+LOW_STOCK_THRESHOLD = 0.80
+
+HIGH_STOCK_THRESHOLD = 1.20
+
+# Simulation
+
+DEFAULT_LEADTIME = 7
+
+MAX_LEADTIME = 30
+
+MAX_DEMAND_INCREASE = 100
+
+# UI
+
+KPI_DECIMALS = 2

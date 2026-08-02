@@ -3,20 +3,20 @@ import pandas as pd
 
 Z_SCORE = 1.65
 
-#eoq section
-def calculate_eoq(df: pd.DataFrame) -> pd.DataFrame:
+
+def calculate_eoq(df: pd.DataFrame):
 
     df = df.copy()
 
     df["EOQ"] = np.sqrt(
         (2 * df["Annual Demand"] * df["Ordering Cost"])
         / df["Holding Cost"]
-    ).round(0)
+    ).round()
 
     return df
 
-#safety stock
-def calculate_safety_stock(df: pd.DataFrame):
+
+def calculate_safety_stock(df):
 
     df = df.copy()
 
@@ -30,19 +30,20 @@ def calculate_safety_stock(df: pd.DataFrame):
 
     return df
 
-#reorder point
+
 def calculate_reorder_point(df):
 
     df = df.copy()
 
     df["Reorder Point"] = (
-        df["Daily Demand"] * df["Lead Time"]
+        df["Daily Demand"]
+        * df["Lead Time"]
         + df["Safety Stock"]
     ).round()
 
     return df
 
-#pipeline
+
 def optimize_inventory(df):
 
     df = calculate_eoq(df)
@@ -52,13 +53,3 @@ def optimize_inventory(df):
     df = calculate_reorder_point(df)
 
     return df
-
-if __name__ == "__main__":
-
-    from dataset import generate_inventory_dataset
-
-    df = generate_inventory_dataset()
-
-    df = optimize_inventory(df)
-
-    print(df.head())

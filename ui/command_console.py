@@ -42,15 +42,15 @@ def render_command_console():
 
         st.divider()
 
-        st.markdown("### SYSTEM STATUS")
-
-        st.success("Inventory Engine")
-
-        st.success("Optimization Engine")
-
-        st.warning("Simulation Engine")
-
-        st.error("AI Copilot")
+        # st.markdown("### SYSTEM STATUS")
+        #
+        # st.success("Inventory Engine")
+        #
+        # st.success("Optimization Engine")
+        #
+        # st.warning("Simulation Engine")
+        #
+        # st.error("AI Copilot")
 
         st.divider()
 
